@@ -69,6 +69,7 @@ public class MainActivity extends Activity {
         {
             if(selTo == R.id.rbToC)
             {
+
                 input-=273.15;
                 tv.setText(Double.toString(input));
             }
